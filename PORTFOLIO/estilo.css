@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html, body{
+    line-height: 1.5;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+header{
+    font-family: 'Poppins';
+    float: left;
+}
+ul{
+    margin-left: auto;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #64ffda;
+}
+
+.navbar{
+    background: none;
+    padding: 3rem 2rem;
+    height: 0rem;
+    min-height: 12vh;
+}
+.navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    font-family: 'Poppins';
+    font-size: 3.5rem;
+    color: white;
+}
+.navbar-toggler {
+    background-color: #64ffda;
+    border: none;
+    padding: 10px 6px;
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+.navbar-toggler span + span + span{
+    width: 10px;
+    margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0.5rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-bottom: 4px solid #64ffda;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    border-bottom: 4px solid red;
+    color: red;
+}
+
+.navbar-nav button{
+    padding: 1.2rem 0;
+}
+.navbar-nav .btn{
+    background-color: red;
+    color: white;
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    margin-top: -10px;
+}
+.navbar-nav .btn:hover{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+/*
+ * Base structure
+ */
+
+body {
+   
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+html,
+body,
+.container-fluid {
+  height: 100%;
+  width: 100%;
+}
+
+
+.cuadrado{
+    background-color: none;
+    width: 100%;
+    height: 70%;
+    margin-top: 9%;
+}
+
+.primero{
+    width: 50%;
+    height: 100%;
+    background-color: none;
+    float: left;
+}
+
+.segundo{
+    width: 50%;
+    height: 100%;
+    background-color: none;
+    float: left;
+}
+
+.nombre{
+    font-size: 1100%;
+    margin-left: 20%;
+    color: #64ffda;
+}
+
+.informacion{
+    font-size: 300%;
+    width: 70%;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.titulo{
+    font-size: 300%;
+    width: 70%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.apellido{
+    font-size: 1100%;
+    margin-left: 20%;
+    margin-top: 15%;
+    color: #64ffda;
+}
